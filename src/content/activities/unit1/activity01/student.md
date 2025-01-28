@@ -11,12 +11,19 @@ M=D
 0;JMP
 ```
 @1 -> Carga el valor 1 en el registro A
+
 D=A -> Mueve el valor de A al registro D
+
 @2 -> Carga el valor 2 en el registro A
+
 D=D+A -> Suma el valor actual de D con el valor de A, guardando el resultado en D
+
 @16 -> Apunta a la dirección de memoria 16
+
 M=D -> Almacena el valor de D en la posición de memoria 16
+
 @6 -> Carga el valor 6 en el registro A
+
 0;JMP -> Salta incondicionalmente a la instrucción en la posición 6 (bucle infinito)
 
 - Suma los número 60 y 9 y guarda el resultado en la posición de memoria 6

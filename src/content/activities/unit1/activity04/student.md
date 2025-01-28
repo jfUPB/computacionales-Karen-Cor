@@ -39,17 +39,19 @@ destinos (dest) y saltos (jump).
   R/:
 
   - A instruction
-  
+  ```
   @100: Carga el valor 100 en el registro A.
 
   @SCREEN: Apunta a la dirección de memoria correspondiente a la pantalla (habitualmente 16384).
 
   @15: Asigna el valor 15 al registro A.
+  ```
 
   - C instruction:
-  
+  ```
   D=M: Carga en el registro D el valor almacenado en la dirección de memoria apuntada por A.
   
   M=D+1: Suma 1 al valor de D y almacena el resultado en la dirección de memoria apuntada por A.
   
   0;JMP: Realiza un salto incondicional a la dirección contenida en el registro A.
+  ```

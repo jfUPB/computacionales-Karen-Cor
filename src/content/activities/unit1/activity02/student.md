@@ -1,3 +1,5 @@
+## Actividad #2
+
 ¿Por qué es importante entender el lenguaje ensamblador para un ingeniero en diseño de entretenimiento digital?
 
   R/: Empezando por entender que el lenguaje ensamblador es una representacion simbolica del lenguaje de

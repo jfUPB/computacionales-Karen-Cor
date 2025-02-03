@@ -1,23 +1,23 @@
 ## Solución #8
 
 ```
-@5
-D=M
-@10
-D=D-A
-@12
-D;JLT
-@0
-D=A
-@7
-M=D
-@16
+@5        // Carga la dirección de memoria 5 en el registro A
+D=M       // Carga el valor almacenado en la dirección 5 en el registro D
+@10       // Carga el valor 10 en el registro A
+D=D-A     // Resta 10 del valor en D (D = valor en 5 - 10)
+@12       // Si D < 0 (es decir, valor en 5 < 10), salta a la línea 12
+D;JLT     
+@0        // Carga el valor 0 en el registro A
+D=A       // Copia el valor 0 al registro D
+@7        // Carga la dirección de memoria 7 en el registro A
+M=D       // Almacena el valor de D (0) en la dirección de memoria 7
+@16       // Salta a la línea 16 (final del programa)
 0;JMP
-@1
-D=A
-@7
-M=D
-@16
+@1        // Carga el valor 1 en el registro A
+D=A       // Copia el valor 1 al registro D
+@7        // Carga la dirección de memoria 7 en el registro A
+M=D       // Almacena el valor de D (1) en la dirección de memoria 7
+@16       // Salta a la línea 16 (final del programa)
 0;JMP
 ```
 

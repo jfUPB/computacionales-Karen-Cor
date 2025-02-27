@@ -1,5 +1,5 @@
 ## Solución #4
-
+```
 // Inicialización de 'a' en memoria
 @0          // Dirección de memoria de 'a'
 M=10         // 'a' = 10
@@ -19,3 +19,4 @@ M=D         // Guardar la dirección de 'a' en 'p'
 D=M         // Cargar la dirección de 'a' (el valor que tiene 'p')
 @0          // Dirección de 'a'
 M=20        // Modificar el valor de 'a' a 20
+```

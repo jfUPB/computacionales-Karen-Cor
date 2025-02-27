@@ -1,5 +1,5 @@
 ## Solución #7
-
+```
 // Inicialización del arreglo 'arr' en memoria
 @16          // Dirección de memoria de arr[0]
 M=1          // arr[0] = 1
@@ -57,4 +57,4 @@ M=0          // j = 0
 
   @LOOP
   0;JMP
-
+```

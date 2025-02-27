@@ -1,5 +1,6 @@
 ## Solución #9
 
+```csharp
 using System;
 
 class Program
@@ -30,3 +31,8 @@ class Program
         Console.WriteLine("Programa completado.");
     }
 }
+```
+
+El arreglo SCREEN tiene 8192 posiciones, cada una representando 16 píxeles. (se saca teniendo en cuenta la resolucion de la pantalla)
+
+
